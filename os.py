@@ -41,3 +41,6 @@ for dirpath, dirnames, filenames in  os.walk('/some/path'):
     print(dirnames)
     print(filenames)
     
+    
+# get environment variables
+print(os.environ.get('HOME'))
