@@ -16,3 +16,7 @@ print(Dave.getBalance())
 
 print(Dave.withdraw(50000))
 print(Dave.withdraw(50))
+
+Dave.transfer(500, John)
+print(Dave.getBalance())
+print(John.getBalance())
